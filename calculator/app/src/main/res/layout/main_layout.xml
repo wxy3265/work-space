@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="请输入"
+
+        android:gravity="right"
+        android:textColor="#000000"
+
+        /><!--显示部分-->
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="#8d8d8d"
+        android:textSize="20dp"
+        /><!--符号-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_1"
+            android:background="#ffffff"
+            android:layout_weight="1"
+        />
+
+        <ImageButton
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_2"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+
+        <ImageButton
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_3"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+    </LinearLayout><!--数字123-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textSize="15dp"/><!--空行-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_4"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_51"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_6"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout><!--数字456-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textSize="15dp"/><!--空行-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_7"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_8"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_9"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout><!--数字789-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textSize="15dp"/><!--空行-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_0"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_a"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_b"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout><!--0加减-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textSize="15dp"/><!--空行-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_c"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_d"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/button_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_e"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout><!--乘除等于-->
+
+</LinearLayout>

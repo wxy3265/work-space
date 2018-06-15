@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <Button
+        android:id="@+id/buttonChinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语文"/>
+
+    <Button
+        android:id="@+id/buttonMath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数学"/>
+    <Button
+        android:id="@+id/buttonEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="英语"/>
+    <Button
+        android:id="@+id/buttonPhysics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="物理"/>
+    <Button
+        android:id="@+id/buttonChemistry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="化学"/>
+
+</LinearLayout>
